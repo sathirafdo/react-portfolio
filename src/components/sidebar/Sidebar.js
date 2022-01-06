@@ -24,17 +24,17 @@ class Sidebar extends Component {
         </p>
         <ul className="sidebar-nav">
           <li className="sidebar-nav-items">
-            <Link smooth to="/#empty" className="links">
+            <Link smooth to="/react-portfolio/#empty" className="links">
               About
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#about" className="links">
+            <Link smooth to="/react-portfolio/#about" className="links">
               Experience
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#interest" className="links">
+            <Link smooth to="/react-portfolio/#interest" className="links">
               Projects
             </Link>
           </li>
