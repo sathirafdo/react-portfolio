@@ -50,13 +50,13 @@ class App extends Component {
               {/* <CarouselImages /> */}
             </div>
             <div style={{ minHeight: "20px" }} id="empty"></div>
-            <About />
-            <Experience />
-            <Projects />
-            {/* <Interest /> */}
-            {/* <Education /> */}
-            {/* <Education />
-            <Education /> */}
+            <div className="elevate">
+              <About />
+              <Experience />
+              <Projects />
+              {/* <Interest /> */}
+              {/* <Education /> */}
+            </div>
             <div style={{ minHeight: "100px" }}></div>
           </div>
         </div>
