@@ -1,6 +1,6 @@
 .box {
   margin: 15px;
-  margin-top: 50px;
+  margin-top: 20px;
   /* box-shadow: 10px 10px 20px rgba(244,241,241,1) ; */
   border-radius: 6px;
   /* animation-name: text;
@@ -29,6 +29,43 @@
   font-weight: 800;
 }
 
+.textmuted {
+  /* color: #a00e0e; */
+  color: #858585;
+  font-size: larger;
+}
+
+.mutecolor {
+  color: #c5c3c3;
+  /* color: #a545cc; */
+}
+
+.xpBox {
+  display: flex;
+  flex-direction: column;
+  /* opacity: 0.2,
+    background: "#232222", */
+  background: rgba(66, 66, 66, 0.2);
+  width: 80%;
+  height: 800;
+  padding: 10px;
+  margin-left: 40px;
+  color: #000;
+  justify-content: space-between;
+  transition: 0.1s linear;
+  border-radius: 10px;
+  /* '@iPad': {
+    width: 300,
+  },
+  '@iPhoneSE': {
+    width: 280,
+  }, */
+}
+
+.xpBox:hover {
+  background: rgba(66, 66, 66, 0.25);
+}
+
 .heading {
   padding: 0px 12px;
   font-size: 18px;
@@ -37,6 +74,7 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
+  color: #000;
 }
 div > h3 {
   font-size: 16px;

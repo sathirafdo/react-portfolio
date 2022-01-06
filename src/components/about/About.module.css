@@ -1,63 +1,108 @@
-.box{
-    margin:15px;
-    margin-top: 40px;
-
+.box {
+  margin: 60px;
+  margin-top: 100px;
+  z-index: 1;
 }
-.About{
-    margin-left:20px;
-    padding:20px;
-}
-
-.br{
-    margin-top: 20px;
+.About {
+  margin-left: 20px;
+  padding: 20px;
 }
 
-.head{
-    display: inline-block;
-    padding:0px 12px;
-    color: rgb(153, 153, 153);
-    margin-bottom: 20px;
-    margin-left:30px;
-    letter-spacing: 5px;
-    font-size: 11px;
+.br {
+  margin-top: 20px;
 }
 
-.heading {  
-    padding:0px 12px;
-    font-size: 18px;
-    font-weight: 700;
-    margin-left:30px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 1.8;
+.head {
+  display: inline-block;
+  padding: 0px 12px;
+  color: rgb(196, 196, 196);
+  margin-bottom: 20px;
+  margin-left: 30px;
+  letter-spacing: 5px;
+  font-size: 11px;
+}
+
+.heading {
+  padding: 0px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
 }
 .label {
-    position: relative;
-    background: #f2f3f7;
-    padding: 1.5em;
-    margin-left: 60px;
+  position: relative;
+  background: #f2f3f7;
+  padding: 1.5em;
+  margin-left: 60px;
 }
 .label h2 {
-    font-size: 20px;
-    font-family: "Quicksand", Arial, sans-serif;
-    font-weight: 500;
-   
+  font-size: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
 }
 .label p {
-    margin-left: 200px;
-   
+  margin-left: 200px;
 }
 
-  
-  @keyframes text{
-    from{transform: translateX(-30px);
-        opacity:0.5;
-    }
+@keyframes text {
+  from {
+    transform: translateX(-30px);
+    opacity: 0.5;
   }
-  
+}
 
-  @media (max-width:992px){
-    .box{
-        text-align: center;
-    }
+@media (max-width: 992px) {
+  .box {
+    text-align: center;
+  }
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.blue {
+  color: #3199ed;
+  /* color: #c9c9c9; */
+}
+.purple {
+  color: #c5c3c3;
+  /* color: #a545cc; */
+}
+.row {
+  display: flex;
+}
+
+.title {
+  font-weight: 250;
+  font-size: 30px;
+  /* text-shadow: 1px 1px 3px #0354be, 1px 1px 3px #0368ec;
+  font-size: 48px; */
+}
+
+.textmuted {
+  /* color: #a00e0e; */
+  color: #858585;
+  font-size: x-large;
+  /* text-align: center; */
+}
+
+.logo {
+  border: 5px solid #024fb4;
+  height: 300px !important;
+  object-fit: cover;
+  border-radius: 50% !important;
+  width: 300px !important;
+}
+
+.logo-col {
+  text-align: center;
+  padding-right: 5%;
 }
