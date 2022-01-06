@@ -6,6 +6,7 @@ import { HashLink as Link } from "react-router-hash-link";
 // import {  FiExternalLink } from 'react-icons/fi';
 import logo from "../images/logo1.png";
 
+// /react-portfolio
 class Sidebar extends Component {
   render() {
     return (
@@ -24,17 +25,17 @@ class Sidebar extends Component {
         </p>
         <ul className="sidebar-nav">
           <li className="sidebar-nav-items">
-            <Link smooth to="/#empty" className="links">
+            <Link smooth to="/react-portfolio/#about" className="links">
               About
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#about" className="links">
+            <Link smooth to="/react-portfolio/#experience" className="links">
               Experience
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#interest" className="links">
+            <Link smooth to="/react-portfolio/#projects" className="links">
               Projects
             </Link>
           </li>

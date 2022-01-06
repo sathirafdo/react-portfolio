@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div
         className={classes.box}
-        id="about"
+        id="experience"
         onClick={() => {
           console.log("clicked on about");
         }}

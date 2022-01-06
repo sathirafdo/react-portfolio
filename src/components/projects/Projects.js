@@ -58,7 +58,7 @@ class Projects extends Component {
     return (
       <div
         className={classes.box}
-        id="interest"
+        id="projects"
         onClick={() => {
           console.log("clicked on projects");
         }}
