@@ -45,10 +45,11 @@ class App extends Component {
               <Particles
                 id="tsparticles"
                 options={particlesConfig}
-                style={{ zIndex: -2 }}
+                className="particles"
               />
               {/* <CarouselImages /> */}
             </div>
+            <div style={{ minHeight: "20px" }} id="empty"></div>
             <About />
             <Experience />
             <Projects />

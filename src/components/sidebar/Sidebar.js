@@ -24,12 +24,12 @@ class Sidebar extends Component {
         </p>
         <ul className="sidebar-nav">
           <li className="sidebar-nav-items">
-            <Link smooth to="/#about" className="links">
+            <Link smooth to="/#empty" className="links">
               About
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#education" className="links">
+            <Link smooth to="/#about" className="links">
               Experience
             </Link>
           </li>
